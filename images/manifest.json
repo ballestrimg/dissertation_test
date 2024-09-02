@@ -1,0 +1,66 @@
+{
+  "id" : "https://ballestrimg.github.io/dissertation_test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in ballestrimg/dissertation_test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 367,
+    "id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable/canvas/",
+    "label" : {
+      "none" : [ "chr-stable" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 12,
+              "height" : 15
+            }, {
+              "width" : 23,
+              "height" : 29
+            }, {
+              "width" : 46,
+              "height" : 58
+            }, {
+              "width" : 92,
+              "height" : 115
+            }, {
+              "width" : 184,
+              "height" : 229
+            }, {
+              "width" : 367,
+              "height" : 458
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 367,
+            "@id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 458
+          } ],
+          "format" : "image/jpeg",
+          "width" : 367,
+          "id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 458
+        },
+        "target" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable/canvas/"
+      } ]
+    } ],
+    "height" : 458
+  } ]
+}
