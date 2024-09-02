@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 12,
+    "height" : 15
+  }, {
+    "width" : 23,
+    "height" : 29
+  }, {
+    "width" : 46,
+    "height" : 58
+  }, {
+    "width" : 92,
+    "height" : 115
+  }, {
+    "width" : 184,
+    "height" : 229
+  }, {
+    "width" : 367,
+    "height" : 458
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 367,
+  "@id" : "https://ballestrimg.github.io/dissertation_test/images/chr-stable",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 458
+}
